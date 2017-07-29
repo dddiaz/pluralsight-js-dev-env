@@ -1,0 +1,12 @@
+1) .editorconfig
+    enforces editor config
+    vscode requires plug in
+    webstorm does not
+
+2) package.json
+    stores list of packages that we are using
+
+3) node security platform
+    need a way to check dependencies for security vulnerabilities
+    run: nsp check
+
