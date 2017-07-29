@@ -33,3 +33,13 @@
 13) babel needs babelrc file, or u can put it inside the package.json
 
 14) in prestart, by adding babel-node babel will tanspile
+
+15) webpack can inteligently bundle all assets
+    live reloading for app too
+
+16) you can import a css file just like a js file\
+
+17) after bundling source code looks very different, you can use sourcemaps to debug
+    sourcemaps are downloaded only if u open dev tools
+    in webpack config you can change devtool to change how source maps works
+    if you type debugger; after line u want to debug and run, chrome will auto pause into non transpiled code
