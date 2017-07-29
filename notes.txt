@@ -43,3 +43,10 @@
     sourcemaps are downloaded only if u open dev tools
     in webpack config you can change devtool to change how source maps works
     if you type debugger; after line u want to debug and run, chrome will auto pause into non transpiled code
+
+18) use eslint for linting
+    github awesome-eslint for list of plugins
+    eslint can enforce coding style!!!
+    companies release thier presets
+
+
