@@ -10,3 +10,26 @@
     need a way to check dependencies for security vulnerabilities
     run: nsp check
 
+4) Express for dev webserver
+
+5) can use something like local tunnel for sharing local dev env
+
+6) npm scripts can leverage os command line, specified in scripts section of package.json
+
+7) pre post hooks, any script command u prepend with pre or post npm will know to run it before or after command is called
+
+8) for npm scripts u dont need to install node packages gloablly to run them
+
+9) if not start or stop func, need to run npm run xxxxx otherwise u can do just npm start
+
+10) npm -s for npm to run in silent mode
+
+11) transpilers compile even non js code into js! python?
+
+12) babel transpiles latest js into es5
+    type script is superset of js
+    note es6 imports are statically analyzable by webstorm
+
+13) babel needs babelrc file, or u can put it inside the package.json
+
+14) in prestart, by adding babel-node babel will tanspile
